@@ -23,5 +23,6 @@ fetch("https://jsonplaceholder.typicode.com/users")
         body.textContent = user.email;
         userCardContainer.append(card)
         return{name: user.name, email: user.email, element: card}
+
     });
 })
